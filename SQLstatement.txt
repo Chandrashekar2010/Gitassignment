@@ -1,0 +1,5 @@
+//SQL Statements
+Select * from Employees
+insert into Employees(ID, firstname, lastname, email) values('1', 'Ravindra', 'Ravi', 'Ravindra@123');
+update Employees set firstname='Bhima' where name='Ravindra'
+Delete from Employees where firstname='Rama'
